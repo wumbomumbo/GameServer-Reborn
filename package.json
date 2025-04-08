@@ -21,7 +21,8 @@
     "protobufjs": "^7.4.0",
     "pug": "^3.0.3",
     "sqlite3": "^5.1.7",
-    "uuid": "^11.0.3"
+    "uuid": "^11.0.3",
+    "jszip": "^3.10.1"
   },
   "devDependencies": {
     "prettier": "3.4.2"

@@ -14,6 +14,7 @@ import fs from "fs";
 import sqlite3 from "sqlite3";
 
 import { randomBytes } from "crypto";
+import JSZip from 'jszip';
 
 const db = new sqlite3.Database(
   config.dataDirectory + "/users.db",
@@ -96,6 +97,73 @@ app.get("/", (req, res) => {
   res.send("Hello, World!");
 });
 
+app.get("/dlc/dlc/DLCIndex.zip", async (req, res, next) => {
+  try {
+    const clientVersion = req.header('client_version') || req.query.client_version;
+    const zip = new JSZip();
+
+    const masterXml = fs.readFileSync('indexes/DLCIndex.xml', 'utf8');
+
+    const xmlParts = masterXml.split(/(<MasterDLCIndex>|<\/MasterDLCIndex>)/);
+    const beforeMaster = xmlParts[0].trim();
+    const masterOpen = xmlParts[1].trim();
+    const masterContent = xmlParts[2].trim();
+    const masterClose = xmlParts[3].trim();
+
+    const overridesMatch = masterContent.match(/<Overrides>[\s\S]*?<\/Overrides>/);
+    const overridesSection = overridesMatch ? overridesMatch[0].trim() : '';
+    const indexFiles = masterContent.match(/<IndexFile[^>]+>/g) || [];
+
+    let latestVersion = null;
+    let latestIndexFile = '';
+    let validIndexFiles = [];
+
+    indexFiles.forEach(file => {
+      const versionMatch = file.match(/version="([\d.]+)"/);
+      if (versionMatch) {
+        const version = versionMatch[1];
+        if (parseFloat(version) <= parseFloat(clientVersion)) {
+          if (!latestVersion || parseFloat(version) > parseFloat(latestVersion)) {
+            if (latestIndexFile) {
+              validIndexFiles.push(latestIndexFile.trim());
+            }
+            latestVersion = version;
+            latestIndexFile = file.trim();
+          } else {
+            validIndexFiles.push(file.trim());
+          }
+        }
+      }
+    });
+
+    const reconstructedXml = [
+      beforeMaster,
+      masterOpen,
+      latestIndexFile ? '  ' + latestIndexFile : '',
+      overridesSection,
+      ...validIndexFiles.map(file => '  ' + file),
+      masterClose
+    ].filter(Boolean).join('\n');
+
+    zip.file("DLCIndex.xml", reconstructedXml);
+
+    const zipBuffer = await zip.generateAsync({
+      type: "nodebuffer",
+      compression: "DEFLATE"
+    });
+
+    res.set({
+      'Content-Type': 'application/zip',
+      'Content-Disposition': 'attachment; filename=DLCIndex.zip'
+    });
+
+    res.send(zipBuffer);
+
+  } catch (error) {
+    next(error);
+  }
+});
+
 app.use((req, res) => {
   res.status(404).send("Do'h! Error 404");
 });
@@ -105,7 +173,7 @@ app.use((err, req, res, next) => {
   res.status(500).send("Do'h! Error 500");
 });
 
-app.listen(PORT, () => { 
+app.listen(PORT, () => {
   debugWithTime(0, `Listening on port ${PORT}`);
   global.running = true; // For the dashboard
   global.lobbyTime = 0; // 0 for current time

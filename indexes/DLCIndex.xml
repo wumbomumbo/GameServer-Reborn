@@ -1,0 +1,608 @@
+<MasterDLCIndex>
+  <IndexFile index="dlc:DLCIndex-v4_69_UNTROUBLEDVASES_PATCH2-r497432-LYOXW1QI.zip" version="4.69.0" />
+  <Overrides>
+    <PropertySet version="4.34">
+      <!-- Samsung Galaxy Tab S3 attempt to fix zoomed in issue -->
+      <Device type="samsung SM-T820" />
+      <Device type="samsung SM-T825" />
+      <StreamSmall min="1" padding="1" sheets="1" width="64" height="64" />
+      <StreamMedium min="default" padding="1" sheets="1" width="128" height="128" />
+      <StreamLarge min="1" padding="0" sheets="2" width="256" height="256" />
+      <StreamLargeWide min="1" padding="0" sheets="2" width="256" height="512" />
+      <StreamXtraLarge min="1" padding="0" sheets="2" width="512" height="256" />
+      <StreamCharacter min="1" padding="1" sheets="1" width="38" height="84" />
+      <StreamHuge min="0" padding="0" sheets="6" width="1024" height="1024" />
+      <Camera min="0.4" max="1.2" />
+      <Tier type="ipad3" socialAssets="100" socialString="100" menuAssets="100" scale="4" atlasToGameScale="1" />
+    </PropertySet>
+    <PropertySet version="4.33.5">
+      <!-- Samsung Galaxy S7 and S7 Edge; attempt to fix DLC redownload by forcing asset tier -->
+      <Device type="samsung SM-G930F" />
+      <Device type="samsung SM-G930FD" />
+      <Device type="samsung SM-G930W8" />
+      <Device type="samsung SM-G935F" />
+      <Device type="samsung SM-G935FD" />
+      <Device type="samsung SM-G9350" />
+      <Device type="samsung SM-G935W8" />
+      <StreamSmall min="1" padding="1" sheets="1" width="64" height="64" />
+      <StreamMedium min="default" padding="1" sheets="1" width="128" height="128" />
+      <StreamLarge min="1" padding="0" sheets="2" width="256" height="256" />
+      <StreamLargeWide min="1" padding="0" sheets="2" width="256" height="512" />
+      <StreamXtraLarge min="1" padding="0" sheets="2" width="512" height="256" />
+      <StreamCharacter min="1" padding="1" sheets="1" width="38" height="84" />
+      <StreamHuge min="0" padding="0" sheets="6" width="1024" height="1024" />
+      <Camera min="0.6" max="1.4" />
+      <Tier type="retina" socialAssets="50" socialString="50" menuAssets="50" scale="2" atlasToGameScale="1" />
+    </PropertySet>
+    <PropertySet version="4.22.5">
+      <!-- Kindle 8.9"; models newer than the KFJWI or KFJWA -->
+      <Device type="Amazon KFAPWA" />
+      <Device type="Amazon KFAPWI" />
+      <Device type="Amazon KFSAWA" />
+      <Device type="Amazon KFSAWI" />
+      <StreamSmall min="0" padding="1" sheets="1" width="64" height="64" />
+      <StreamMedium min="default" padding="1" sheets="1" width="128" height="128" />
+      <StreamLarge min="0" padding="0" sheets="2" width="256" height="256" />
+      <StreamLargeWide min="0" padding="0" sheets="2" width="256" height="512" />
+      <StreamXtraLarge min="0" padding="0" sheets="2" width="512" height="256" />
+      <StreamCharacter min="0" padding="1" sheets="1" width="38" height="84" />
+      <StreamHuge min="0" padding="0" sheets="12" width="1024" height="1024" />
+      <Camera min="1.2" max="1.8" />
+      <Tier type="ipad3" socialAssets="50" socialString="50" menuAssets="100" scale="2" atlasToGameScale="0.5" />
+      <Package name="FriendsMap-100" allowed="true" />
+      <Package name="FriendsMap-50" allowed="false" />
+      <Package name="GameForMenu-100" allowed="true" />
+      <Package name="GameForMenu-50" allowed="false" />
+      <Package name="GameForMenuHotfix-100" allowed="true" />
+      <Package name="GameForMenuHotfix-50" allowed="false" />
+      <Package name="GameForMenu_LTD-100" allowed="true" />
+      <Package name="GameForMenu_LTD-50" allowed="false" />
+    </PropertySet>
+    <PropertySet version="4.22.0">
+      <Device type="iPad4,1" />
+      <!-- iPad Air -->
+      <Device type="iPad4,2" />
+      <Device type="iPad4,4" />
+      <!-- iPad Mini 2/3 -->
+      <Device type="iPad4,5" />
+      <Device type="iPad4,6" />
+      <Device type="iPad4,7" />
+      <Device type="iPad4,8" />
+      <Device type="iPad4,9" />
+      <StreamSmall min="0" padding="1" sheets="1" width="64" height="64" />
+      <StreamMedium min="default" padding="1" sheets="1" width="128" height="128" />
+      <StreamLarge min="0" padding="0" sheets="2" width="256" height="256" />
+      <StreamLargeWide min="0" padding="0" sheets="2" width="256" height="512" />
+      <StreamXtraLarge min="0" padding="0" sheets="2" width="512" height="256" />
+      <StreamCharacter min="0" padding="1" sheets="1" width="38" height="84" />
+      <StreamHuge min="0" padding="0" sheets="12" width="1024" height="1024" />
+      <Camera min="1.2" max="1.8" />
+      <Tier type="ipad3" socialAssets="50" socialString="50" menuAssets="100" scale="2" atlasToGameScale="0.5" />
+      <Package name="FriendsMap-100" allowed="true" />
+      <Package name="FriendsMap-50" allowed="false" />
+      <Package name="GameForMenu-100" allowed="true" />
+      <Package name="GameForMenu-50" allowed="false" />
+      <Package name="GameForMenuHotfix-100" allowed="true" />
+      <Package name="GameForMenuHotfix-50" allowed="false" />
+      <Package name="GameForMenu_LTD-100" allowed="true" />
+      <Package name="GameForMenu_LTD-50" allowed="false" />
+    </PropertySet>
+    <PropertySet version="4.12.0">
+      <Device type="Amazon KFJWI" />
+      <Device type="Amazon KFJWA" />
+      <Device type="BN LLC BNTV600" />
+      <StreamSmall min="0" padding="1" sheets="1" width="64" height="64" />
+      <StreamMedium min="default" padding="1" sheets="1" width="128" height="128" />
+      <StreamLarge min="0" padding="0" sheets="2" width="256" height="256" />
+      <StreamLargeWide min="0" padding="0" sheets="2" width="256" height="512" />
+      <StreamXtraLarge min="0" padding="0" sheets="2" width="512" height="256" />
+      <StreamCharacter min="0" padding="1" sheets="1" width="38" height="84" />
+      <StreamHuge min="0" padding="0" sheets="12" width="1024" height="1024" />
+      <Camera min="1.2" max="1.8" />
+      <Tier type="ipad3" socialAssets="50" socialString="50" menuAssets="100" scale="2" atlasToGameScale="0.5" />
+      <Package name="FriendsMap-100" allowed="true" />
+      <Package name="FriendsMap-50" allowed="false" />
+      <Package name="GameForMenu-100" allowed="true" />
+      <Package name="GameForMenu-50" allowed="false" />
+      <Package name="GameForMenuHotfix-100" allowed="true" />
+      <Package name="GameForMenuHotfix-50" allowed="false" />
+      <Package name="GameForMenu_LTD-100" allowed="true" />
+      <Package name="GameForMenu_LTD-50" allowed="false" />
+    </PropertySet>
+    <PropertySet version="4.7.0">
+      <Device type="iPad1,1" />
+      <Device type="iPad2,1" />
+      <Device type="iPad2,2" />
+      <Device type="iPad2,3" />
+      <Device type="iPad2,4" />
+      <StreamSmall min="1" padding="1" sheets="1" width="64" height="64" />
+      <StreamMedium min="default" padding="1" sheets="1" width="128" height="128" />
+      <StreamLarge min="1" padding="0" sheets="2" width="256" height="256" />
+      <StreamLargeWide min="1" padding="0" sheets="2" width="256" height="512" />
+      <StreamXtraLarge min="1" padding="0" sheets="2" width="512" height="256" />
+      <StreamCharacter min="1" padding="1" sheets="1" width="38" height="84" />
+      <StreamHuge min="0" padding="0" sheets="6" width="1024" height="1024" />
+      <Camera min="1.2" max="1.8" />
+      <Tier type="ipad" socialAssets="25" socialString="25" menuAssets="50" scale="1" atlasToGameScale="0.5" />
+      <Package name="FriendsMap-50" allowed="true" />
+      <Package name="FriendsMap-25" allowed="false" />
+      <Package name="GameForMenu-50" allowed="true" />
+      <Package name="GameForMenu-25" allowed="false" />
+      <Package name="GameForMenuHotfix-50" allowed="true" />
+      <Package name="GameForMenuHotfix-25" allowed="false" />
+      <Package name="GameForMenu_LTD-50" allowed="true" />
+      <Package name="GameForMenu_LTD-25" allowed="false" />
+    </PropertySet>
+    <PropertySet version="4.7.0">
+      <Device type="iPod4,1" />
+      <StreamSmall min="1" padding="1" sheets="1" width="64" height="64" />
+      <StreamMedium min="default" padding="1" sheets="1" width="128" height="128" />
+      <StreamLarge min="1" padding="0" sheets="2" width="256" height="256" />
+      <StreamLargeWide min="1" padding="0" sheets="2" width="256" height="512" />
+      <StreamXtraLarge min="1" padding="0" sheets="2" width="512" height="256" />
+      <StreamCharacter min="1" padding="1" sheets="1" width="38" height="84" />
+      <StreamHuge min="0" padding="0" sheets="6" width="1024" height="1024" />
+      <Camera min="1.2" max="1.8" />
+      <Tier type="retina" socialAssets="25" socialString="25" menuAssets="50" scale="1" atlasToGameScale="0.37" />
+      <Package name="FriendsMap-50" allowed="true" />
+      <Package name="FriendsMap-25" allowed="false" />
+      <Package name="GameForMenu-50" allowed="true" />
+      <Package name="GameForMenu-25" allowed="false" />
+      <Package name="GameForMenuHotfix-50" allowed="true" />
+      <Package name="GameForMenuHotfix-25" allowed="false" />
+      <Package name="GameForMenu_LTD-50" allowed="true" />
+      <Package name="GameForMenu_LTD-25" allowed="false" />
+    </PropertySet>
+    <PropertySet version="4.11.0">
+      <Device type="Amazon KFARWI" />
+      <Device type="Amazon KFASWI" />
+      <StreamSmall min="1" padding="1" sheets="1" width="64" height="64" />
+      <StreamMedium min="default" padding="1" sheets="1" width="128" height="128" />
+      <StreamLarge min="1" padding="0" sheets="2" width="256" height="256" />
+      <StreamLargeWide min="1" padding="0" sheets="2" width="256" height="512" />
+      <StreamXtraLarge min="1" padding="0" sheets="2" width="512" height="256" />
+      <StreamCharacter min="1" padding="1" sheets="1" width="38" height="84" />
+      <StreamHuge min="0" padding="0" sheets="5" width="1024" height="1024" />
+      <Camera min="1.2" max="1.8" />
+      <Tier type="retina" socialAssets="25" socialString="25" menuAssets="50" scale="1" atlasToGameScale="0.37" />
+      <Package name="FriendsMap-50" allowed="true" />
+      <Package name="FriendsMap-25" allowed="false" />
+      <Package name="GameForMenu-50" allowed="true" />
+      <Package name="GameForMenu-25" allowed="false" />
+      <Package name="GameForMenuHotfix-50" allowed="true" />
+      <Package name="GameForMenuHotfix-25" allowed="false" />
+      <Package name="GameForMenu_LTD-50" allowed="true" />
+      <Package name="GameForMenu_LTD-25" allowed="false" />
+    </PropertySet>
+    <PropertySet version="4.68.5">
+      <!-- Samsung Galaxy Galaxy fold -->
+      <Device type="samsung SM-F900F" />
+      <Device type="samsung SM-F9000" />
+      <Device type="samsung SM-F900W" />
+      <Device type="samsung SM-F900U" />
+      <Device type="samsung SM-F900N" />
+      <Device type="samsung SM-F900U1" />
+      <StreamSmall min="1" padding="1" sheets="6" width="64" height="64" />
+      <StreamMedium min="default" padding="1" sheets="5" width="128" height="128" />
+      <StreamLarge min="1" padding="0" sheets="16" width="256" height="256" />
+      <StreamLargeWide min="1" padding="0" sheets="13" width="256" height="512" />
+      <StreamXtraLarge min="1" padding="0" sheets="6" width="512" height="256" />
+      <StreamCharacter min="1" padding="1" sheets="1" width="38" height="84" />
+      <StreamHuge min="0" padding="0" sheets="20" width="512" height="512" />
+      <Camera min="0.6" max="1.4" />
+      <Tier type="ipad" socialAssets="50" socialString="50" menuAssets="50" scale="2" atlasToGameScale="1" />
+    </PropertySet>
+    <PropertySet version="4.68.5">
+      <!-- Samsung Galaxy Galaxy fold 4 -->
+      <Device type="samsung SM-F936U1" />
+      <Device type="samsung SM-F936B" />
+      <Device type="samsung SM-F936B/DS" />
+      <Device type="samsung SM-F936U" />
+      <Device type="samsung SM-F936N" />
+      <Device type="samsung SM-F936W" />
+      <Device type="samsung SM-F9360" />
+      <StreamSmall min="1" padding="1" sheets="6" width="64" height="64" />
+      <StreamMedium min="default" padding="1" sheets="5" width="128" height="128" />
+      <StreamLarge min="1" padding="0" sheets="16" width="256" height="256" />
+      <StreamLargeWide min="1" padding="0" sheets="13" width="256" height="512" />
+      <StreamXtraLarge min="1" padding="0" sheets="6" width="512" height="256" />
+      <StreamCharacter min="1" padding="1" sheets="1" width="38" height="84" />
+      <StreamHuge min="0" padding="0" sheets="20" width="512" height="512" />
+      <Camera min="0.6" max="1.4" />
+      <Tier type="ipad3" socialAssets="100" socialString="100" menuAssets="100" scale="4" atlasToGameScale="1" />
+      <Hooks>
+        <OnMenuPreload><![CDATA[#;var a = Device::getPropertiesArray();
+                 if(a['height']>904)
+                 {
+                   Debug::log('Setting large scale');
+                   Menu::setGlobalMenuScale(0.7);
+                 }
+                 else
+                 {
+                   Menu::setGlobalMenuScale(1.0);
+                   Debug::log('Setting small scale');
+                 }]]></OnMenuPreload>
+      </Hooks>
+    </PropertySet>
+    <PropertySet version="4.68.5">
+      <!-- Samsung Galaxy Galaxy fold 3 5G -->
+      <Device type="samsung SM-F926U1" />
+      <Device type="samsung SM-F926B" />
+      <Device type="samsung SM-F926B/DS" />
+      <Device type="samsung SM-F926U" />
+      <Device type="samsung SM-F926N" />
+      <Device type="samsung SM-F926W" />
+      <Device type="samsung SM-F9260" />
+      <StreamSmall min="1" padding="1" sheets="6" width="64" height="64" />
+      <StreamMedium min="default" padding="1" sheets="5" width="128" height="128" />
+      <StreamLarge min="1" padding="0" sheets="16" width="256" height="256" />
+      <StreamLargeWide min="1" padding="0" sheets="13" width="256" height="512" />
+      <StreamXtraLarge min="1" padding="0" sheets="6" width="512" height="256" />
+      <StreamCharacter min="1" padding="1" sheets="1" width="38" height="84" />
+      <StreamHuge min="0" padding="0" sheets="20" width="512" height="512" />
+      <Camera min="0.6" max="1.4" />
+      <Tier type="ipad" socialAssets="50" socialString="50" menuAssets="50" scale="2" atlasToGameScale="1" />
+      <Hooks>
+        <OnMenuPreload><![CDATA[#;var a = Device::getPropertiesArray();
+                 if(a['height']>630)
+                 {
+                   Debug::log('Setting large scale');
+                   Menu::setGlobalMenuScale(0.6);
+                 }
+                 else
+                 {
+                   Menu::setGlobalMenuScale(0.9);
+                   Debug::log('Setting small scale');
+                 }]]></OnMenuPreload>
+      </Hooks>
+    </PropertySet>
+    <PropertySet version="4.37.6">
+      <!-- Default settings | Setting these devices back to the defaults since some may have cached a previous manifest.
+       This is a bandaid solution, in code it should notice if this didn't exist it should delete the cached version to go back to defaults.
+        Instead we're going to specify some default settings-->
+      <Device type="Amazon KFKAWI" />
+      <Device type="Amazon KFAUWI" />
+      <Device type="Amazon KFDOWI" />
+      <Device type="Amazon KFGIWI" />
+      <Device type="Amazon KFFOWI" />
+      <Device type="Amazon KFMEWI" />
+      <Device type="Amazon KFTBWI" />
+      <Device type="Amazon KFARWI" />
+      <Device type="Amazon KFASWI" />
+      <StreamSmall min="1" padding="1" sheets="1" width="64" height="64" />
+      <StreamMedium min="default" padding="1" sheets="1" width="128" height="128" />
+      <StreamLarge min="1" padding="0" sheets="2" width="256" height="256" />
+      <StreamLargeWide min="1" padding="0" sheets="2" width="256" height="512" />
+      <StreamXtraLarge min="1" padding="0" sheets="2" width="512" height="256" />
+      <StreamCharacter min="1" padding="1" sheets="1" width="38" height="84" />
+      <StreamHuge min="0" padding="0" sheets="6" width="1024" height="1024" />
+      <Camera min="0.6" max="1.4" />
+      <Tier type="ipad" socialAssets="50" socialString="50" menuAssets="50" scale="2" atlasToGameScale="1" />
+    </PropertySet>
+    <PropertySet version="4.37.5">
+      <!-- Samsung Galaxy Tab S3 attempt to fix zoomed in issue -->
+      <Device type="samsung SM-T820" />
+      <Device type="samsung SM-T825" />
+      <StreamSmall min="0" padding="1" sheets="1" width="64" height="64" />
+      <StreamMedium min="0" padding="0" sheets="1" width="128" height="128" />
+      <StreamLarge min="0" padding="0" sheets="2" width="256" height="256" />
+      <StreamLargeWide min="0" padding="0" sheets="2" width="512" height="256" />
+      <StreamXtraLarge min="0" padding="0" sheets="2" width="256" height="512" />
+      <StreamCharacter min="1" padding="1" sheets="1" width="38" height="84" />
+      <StreamHuge min="0" padding="0" sheets="6" width="512" height="512" />
+      <Camera min="0.6" max="1.4" />
+      <Tier type="retina" socialAssets="50" socialString="50" menuAssets="50" scale="2" atlasToGameScale="1" />
+    </PropertySet>
+    <PropertySet version="4.37.0">
+      <!-- Downgrading assets for 1GB devices that default to highest asset tier (retina) -->
+      <Device type="Amazon KFKAWI" />
+      <Device type="Amazon KFAUWI" />
+      <Device type="Amazon KFDOWI" />
+      <Device type="Amazon KFGIWI" />
+      <Device type="Amazon KFFOWI" />
+      <Device type="Amazon KFMEWI" />
+      <Device type="Amazon KFTBWI" />
+      <Device type="Amazon KFARWI" />
+      <Device type="Amazon KFASWI" />
+      <StreamSmall min="1" padding="1" sheets="1" width="64" height="64" />
+      <StreamMedium min="default" padding="1" sheets="1" width="128" height="128" />
+      <StreamLarge min="1" padding="0" sheets="2" width="256" height="256" />
+      <StreamLargeWide min="1" padding="0" sheets="2" width="256" height="512" />
+      <StreamXtraLarge min="1" padding="0" sheets="2" width="512" height="256" />
+      <StreamCharacter min="1" padding="1" sheets="1" width="38" height="84" />
+      <StreamHuge min="0" padding="0" sheets="6" width="1024" height="1024" />
+      <Camera min="1.2" max="1.8" />
+      <Tier type="ipad" socialAssets="50" socialString="50" menuAssets="50" scale="2" atlasToGameScale="1" />
+    </PropertySet>
+    <PropertySet version="4.22.0">
+      <Device type="Amazon 3HT7G" />
+      <StreamSmall min="0" padding="1" sheets="1" width="64" height="64" />
+      <StreamMedium min="default" padding="1" sheets="1" width="128" height="128" />
+      <StreamLarge min="0" padding="0" sheets="2" width="256" height="256" />
+      <StreamLargeWide min="0" padding="0" sheets="2" width="256" height="512" />
+      <StreamXtraLarge min="0" padding="0" sheets="2" width="512" height="256" />
+      <StreamCharacter min="0" padding="1" sheets="1" width="38" height="84" />
+      <StreamHuge min="0" padding="0" sheets="12" width="1024" height="1024" />
+      <Camera min="1.2" max="1.8" />
+      <Tier type="ipad3" socialAssets="50" socialString="50" menuAssets="100" scale="2" atlasToGameScale="0.5" />
+      <Package name="FriendsMap-100" allowed="true" />
+      <Package name="FriendsMap-50" allowed="false" />
+      <Package name="GameForMenu-100" allowed="true" />
+      <Package name="GameForMenu-50" allowed="false" />
+      <Package name="GameForMenuHotfix-100" allowed="true" />
+      <Package name="GameForMenuHotfix-50" allowed="false" />
+      <Package name="GameForMenu_LTD-100" allowed="true" />
+      <Package name="GameForMenu_LTD-50" allowed="false" />
+    </PropertySet>
+    <PropertySet version="4.16.3">
+      <Device type="htc Nexus 9" />
+      <StreamSmall min="0" padding="1" sheets="6" width="64" height="64" />
+      <StreamMedium min="default" padding="1" sheets="6" width="128" height="128" />
+      <StreamLarge min="0" padding="0" sheets="7" width="256" height="256" />
+      <StreamLargeWide min="0" padding="0" sheets="5" width="256" height="512" />
+      <StreamXtraLarge min="0" padding="0" sheets="5" width="512" height="256" />
+      <StreamCharacter min="0" padding="1" sheets="2" width="38" height="84" />
+      <StreamHuge min="0" padding="0" sheets="12" width="512" height="512" />
+      <Tier type="ipad3" socialAssets="100" socialString="100" menuAssets="100" scale="4" atlasToGameScale="1" />
+      <Camera min="0.6" max="1.4" />
+    </PropertySet>
+    <PropertySet version="4.10.0">
+      <Device type="Amazon KFJWI" />
+      <Device type="Amazon KFJWA" />
+      <Device type="BN LLC BNTV600" />
+      <StreamSmall min="1" padding="1" sheets="1" width="64" height="64" />
+      <StreamMedium min="default" padding="1" sheets="1" width="128" height="128" />
+      <StreamLarge min="1" padding="0" sheets="2" width="256" height="256" />
+      <StreamLargeWide min="1" padding="0" sheets="2" width="256" height="512" />
+      <StreamXtraLarge min="1" padding="0" sheets="2" width="512" height="256" />
+      <StreamCharacter min="1" padding="1" sheets="1" width="38" height="84" />
+      <StreamHuge min="0" padding="0" sheets="12" width="1024" height="1024" />
+      <Camera min="1.2" max="1.8" />
+      <Tier type="ipad3" socialAssets="50" socialString="50" menuAssets="100" scale="2" atlasToGameScale="0.5" />
+      <Package name="FriendsMap-100" allowed="true" />
+      <Package name="FriendsMap-50" allowed="false" />
+      <Package name="GameForMenu-100" allowed="true" />
+      <Package name="GameForMenu-50" allowed="false" />
+      <Package name="GameForMenuHotfix-100" allowed="true" />
+      <Package name="GameForMenuHotfix-50" allowed="false" />
+      <Package name="GameForMenu_LTD-100" allowed="true" />
+      <Package name="GameForMenu_LTD-50" allowed="false" />
+    </PropertySet>
+    <PropertySet version="4.7.0">
+      <Device type="Amazon KFJWI" />
+      <Device type="Amazon KFJWA" />
+      <Device type="BN LLC BNTV600" />
+      <StreamSmall min="1" padding="1" sheets="1" width="64" height="64" />
+      <StreamMedium min="default" padding="1" sheets="1" width="128" height="128" />
+      <StreamLarge min="1" padding="0" sheets="2" width="256" height="256" />
+      <StreamLargeWide min="1" padding="0" sheets="2" width="256" height="512" />
+      <StreamXtraLarge min="1" padding="0" sheets="2" width="512" height="256" />
+      <StreamCharacter min="1" padding="1" sheets="1" width="38" height="84" />
+      <StreamHuge min="0" padding="0" sheets="12" width="1024" height="1024" />
+      <Camera min="1.2" max="1.8" />
+      <Tier type="ipad3" socialAssets="50" socialString="50" menuAssets="100" scale="2" atlasToGameScale="0.5" />
+      <Package name="FriendsMap-100" allowed="true" />
+      <Package name="FriendsMap-50" allowed="false" />
+      <Package name="GameForMenu-100" allowed="true" />
+      <Package name="GameForMenu-50" allowed="false" />
+      <Package name="GameForMenuHotfix-100" allowed="true" />
+      <Package name="GameForMenuHotfix-50" allowed="false" />
+      <Package name="GameForMenu_LTD-100" allowed="true" />
+      <Package name="GameForMenu_LTD-50" allowed="false" />
+    </PropertySet>
+    <PropertySet version="4.9.0">
+      <Device type="Amazon KFJWI" />
+      <Device type="Amazon KFJWA" />
+      <Device type="BN LLC BNTV600" />
+      <StreamSmall min="1" padding="1" sheets="1" width="64" height="64" />
+      <StreamMedium min="default" padding="1" sheets="1" width="128" height="128" />
+      <StreamLarge min="1" padding="0" sheets="2" width="256" height="256" />
+      <StreamLargeWide min="1" padding="0" sheets="2" width="256" height="512" />
+      <StreamXtraLarge min="1" padding="0" sheets="2" width="512" height="256" />
+      <StreamCharacter min="1" padding="1" sheets="1" width="38" height="84" />
+      <StreamHuge min="0" padding="0" sheets="12" width="1024" height="1024" />
+      <Camera min="1.2" max="1.8" />
+      <Tier type="ipad3" socialAssets="50" socialString="50" menuAssets="100" scale="2" atlasToGameScale="0.5" />
+      <Package name="FriendsMap-100" allowed="true" />
+      <Package name="FriendsMap-50" allowed="false" />
+      <Package name="GameForMenu-100" allowed="true" />
+      <Package name="GameForMenu-50" allowed="false" />
+      <Package name="GameForMenuHotfix-100" allowed="true" />
+      <Package name="GameForMenuHotfix-50" allowed="false" />
+      <Package name="GameForMenu_LTD-100" allowed="true" />
+      <Package name="GameForMenu_LTD-50" allowed="false" />
+    </PropertySet>
+    <PropertySet version="4.6.0">
+      <Device type="iPad1,1" />
+      <Device type="iPad2,1" />
+      <Device type="iPad2,2" />
+      <Device type="iPad2,3" />
+      <Device type="iPad2,4" />
+      <StreamSmall min="1" padding="1" sheets="1" width="64" height="64" />
+      <StreamMedium min="default" padding="1" sheets="1" width="128" height="128" />
+      <StreamLarge min="1" padding="0" sheets="2" width="256" height="256" />
+      <StreamLargeWide min="1" padding="0" sheets="2" width="256" height="512" />
+      <StreamXtraLarge min="1" padding="0" sheets="2" width="512" height="256" />
+      <StreamCharacter min="1" padding="1" sheets="1" width="38" height="84" />
+      <StreamHuge min="0" padding="0" max="12" />
+      <HugeTexture width="1024" height="1024" />
+      <Camera min="1.2" max="1.8" />
+      <Tier type="ipad" socialAssets="25" socialString="25" menuAssets="50" scale="1" atlasToGameScale="0.5" />
+      <Package name="FriendsMap-50" allowed="true" />
+      <Package name="FriendsMap-25" allowed="false" />
+      <Package name="GameForMenu-50" allowed="true" />
+      <Package name="GameForMenu-25" allowed="false" />
+      <Package name="GameForMenuHotfix-50" allowed="true" />
+      <Package name="GameForMenuHotfix-25" allowed="false" />
+    </PropertySet>
+    <PropertySet version="4.6.0">
+      <Device type="iPod4,1" />
+      <StreamSmall min="1" padding="1" sheets="1" width="64" height="64" />
+      <StreamMedium min="default" padding="1" sheets="1" width="128" height="128" />
+      <StreamLarge min="1" padding="0" sheets="2" width="256" height="256" />
+      <StreamLargeWide min="1" padding="0" sheets="2" width="256" height="512" />
+      <StreamXtraLarge min="1" padding="0" sheets="2" width="512" height="256" />
+      <StreamCharacter min="1" padding="1" sheets="1" width="38" height="84" />
+      <StreamHuge min="0" padding="0" max="12" />
+      <HugeTexture width="1024" height="1024" />
+      <Camera min="1.2" max="1.8" />
+      <Tier type="retina" socialAssets="25" socialString="25" menuAssets="50" scale="1" atlasToGameScale="0.37" />
+      <Package name="FriendsMap-50" allowed="true" />
+      <Package name="FriendsMap-25" allowed="false" />
+      <Package name="GameForMenu-50" allowed="true" />
+      <Package name="GameForMenu-25" allowed="false" />
+      <Package name="GameForMenuHotfix-50" allowed="true" />
+      <Package name="GameForMenuHotfix-25" allowed="false" />
+    </PropertySet>
+  </Overrides>
+  <IndexFile index="dlc:DLCIndex-v4_68_THEMAYFLOWERMAPLEBOWL-r496721-6LMZTHC1.zip" version="4.68.5" />
+  <IndexFile index="dlc:DLCIndex-v4_68_SUMMEROFOURDISCONTENT_PATCH1-r496179-BLC40IFU.zip" version="4.68.0" />
+  <IndexFile index="dlc:DLCIndex-v4_67_CHARITYCASE-r495878-YDBWEXHG.zip" version="4.67.5" />
+  <IndexFile index="dlc:DLCIndex-v4_67_THESIMPSANOS_PATCH1-r494990-V6CHPYXB.zip" version="4.67.0" />
+  <IndexFile index="dlc:DLCIndex-v4_66_THEGREATBURNSBY_PATCH2-r494653-B2Z190Y7.zip" version="4.66.5" />
+  <IndexFile index="dlc:DLCIndex-v4_66_FEARSOFACLOWN_PATCH1-r493743-ODZRG0MV.zip" version="4.66.0" />
+  <IndexFile index="dlc:DLCIndex-v4_65_NEWYEARS2024-r493210-RKY1JCMB.zip" version="4.65.5" />
+  <IndexFile index="dlc:DLCIndex-v4_65_XMAS2023_PATCH2-r492847-YAPNSTV9.zip" version="4.65.0" />
+  <IndexFile index="dlc:DLCIndex-v4_64_COLDTURKEY-r492105-H4SZ59VL.zip" version="4.64.8" />
+  <IndexFile index="dlc:DLCIndex-v4_64_THOHXXXIV_PATCH5-r492090-YB95JWAV.zip" version="4.64.3" />
+  <IndexFile index="dlc:DLCIndex-v4_64_THOHXXXIV_PATCH4-r491478-ZL6KOBY3.zip" version="4.64.2" />
+  <IndexFile index="dlc:DLCIndex-v4_64_THOHXXXIV_PATCH3-r491470-P4KQFA0Z.zip" version="4.64.0" />
+  <IndexFile index="dlc:DLCIndex-v4_63_AHARDPLAYSNIGHT-r490466-2UTMFGV1.zip" version="4.63.5" />
+  <IndexFile index="dlc:DLCIndex-v4_63_MIRRORMAYHEM_PATCH1-r489561-PVZMHRYK.zip" version="4.63.0" />
+  <IndexFile index="dlc:DLCIndex-v4_62_FOODWARS-r489034-ZQF3WHG4.zip" version="4.62.5" />
+  <IndexFile index="dlc:DLCIndex-v4_62_FORE-r488231-MW4CH2PY.zip" version="4.62.0" />
+  <IndexFile index="dlc:DLCIndex-v4_61_FORALLRICHMANKIND_PATCH1-r487820-Q9SUB21M.zip" version="4.61.5" />
+  <IndexFile index="dlc:DLCIndex-v4_61_HEAVENWONTWAIT-r486705-L4VAQDGH.zip" version="4.61.0" />
+  <IndexFile index="dlc:DLCIndex-v4_60_SHIVERMEBARNACLES-r486252-DSJF308Y.zip" version="4.60.5" />
+  <IndexFile index="dlc:DLCIndex-v4_60_AWARMFYREWELCOME_PATCH1-r485354-K4TUBJG5.zip" version="4.60.0" />
+  <IndexFile index="dlc:DLCIndex-v4_59_NEWYEARS2023_PATCH1-r484709-FW48XIJE.zip" version="4.59.5" />
+  <IndexFile index="dlc:DLCIndex-v4_59_XMAS2022-r483975-Z0JW46NK.zip" version="4.59.0" />
+  <IndexFile index="dlc:DLCIndex-v4_58_THEATOMSMASHER-r483331-8VCASDGW.zip" version="4.58.5" />
+  <IndexFile index="dlc:DLCIndex-v4_58_THOHXXXIII_PATCH1-r482636-TNWASKML.zip" version="4.58.0" />
+  <IndexFile index="dlc:DLCIndex-v4_57_TRAGICMAGIC-r481895-TYNJI51P.zip" version="4.57.5" />
+  <IndexFile index="dlc:DLCIndex-v4_57_SHOWBIZSHOWDOWN_PATCH1-r481626-G48HE12J.zip" version="4.57.0" />
+  <IndexFile index="dlc:DLCIndex-v4_56_SPLASHANDBURN_PATCH1-r480775-03KLV259.zip" version="4.56.5" />
+  <IndexFile index="dlc:DLCIndex-v4_56_DOGDAYS_PATCH2-r480272-D8PCYRFT.zip" version="4.56.0" />
+  <IndexFile index="dlc:DLCIndex-v4_55_WHENTHEBOUGHBREAKS-r478892-UMGNVK7J.zip" version="4.55.5" />
+  <IndexFile index="dlc:DLCIndex-v4_55_HELLONWHEELS_PATCH2-r478261-TZJQ7RXU.zip" version="4.55.0" />
+  <IndexFile index="dlc:DLCIndex-v4_54_HOTDIGGITYDOH_PATCH1-r477393-GHMY3B45.zip" version="4.54.5" />
+  <IndexFile index="dlc:DLCIndex-v4_54_CIRQUEDUSPRINGFIELD_PATCH2-r476541-S4U31WXQ.zip" version="4.54.0" />
+  <IndexFile index="dlc:DLCIndex-v4_53_NEWYEARS2022-r475797-OE4HRAZQ.zip" version="4.53.5" />
+  <IndexFile index="dlc:DLCIndex-v4_53_XMAS2021_PATCH1-r475177-6SF2E3JI.zip" version="4.53.0" />
+  <IndexFile index="dlc:DLCIndex-v4_52_NORTHWARDBOUND_PATCH1-r474609-8TYGH9Q1.zip" version="4.52.5" />
+  <IndexFile index="dlc:DLCIndex-v4_52_THOHXXXII_PATCH1-r473545-2PIU9FJ6.zip" version="4.52.0" />
+  <IndexFile index="dlc:DLCIndex-v4_51_SEASON33PRIZETRACK-r472683-05MISNY3.zip" version="4.51.5" />
+  <IndexFile index="dlc:DLCIndex-v4_51_INTOTHESIMPSONSVERSE_PATCH1-r471337-386N92Q1.zip" version="4.51.0" />
+  <IndexFile index="dlc:DLCIndex-v4_50_TAVERNTROUBLE_PATCH1-r471011-WBD9HE1I.zip" version="4.50.5" />
+  <IndexFile index="dlc:DLCIndex-v4_50_SPRINGFIELDENLIGHTENED_PATCH2-r470269-ZFJIVWG4.zip" version="4.50.1" />
+  <IndexFile index="dlc:DLCIndex-v4_50_SPRINGFIELDENLIGHTENED-r469833-UWN102CR.zip" version="4.50.0" />
+  <IndexFile index="dlc:DLCIndex-v4_49_FOODIEFIGHT_PATCH2-r469587-SQWK3BH7.zip" version="4.49.5" />
+  <IndexFile index="dlc:DLCIndex-v4_49_RISEOFTHEROBOTS_PATCH1-r468344-R1T9WLY6.zip" version="4.49.0" />
+  <IndexFile index="dlc:DLCIndex-v4_48_SPRINGFIELDCHOPPERS_PATCH1-r467837-OMWZDIT1.zip" version="4.48.5" />
+  <IndexFile index="dlc:DLCIndex-v4_48_LOVEANDWAR_PATCH1-r467118-4LDEJK7I.zip" version="4.48.0" />
+  <IndexFile index="dlc:DLCIndex-v4_47_NEWYEARS2021-r466693-OL5MAZR9.zip" version="4.47.5" />
+  <IndexFile index="dlc:DLCIndex-v4_47_XMAS2020_PATCH4-r466354-7ZDQIN6P.zip" version="4.47.0" />
+  <IndexFile index="dlc:DLCIndex-v4_46_BLARGSGIVING_PATCH1-r465593-3T0EJ9WU.zip" version="4.46.5" />
+  <IndexFile index="dlc:DLCIndex-v4_46_THOHXXXI_PATCH1-r464505-QV62M51T.zip" version="4.46.0" />
+  <IndexFile index="dlc:DLCIndex-v4_45_ALLTHISJAZZ-r463663-CFDJYR5U.zip" version="4.45.5" />
+  <IndexFile index="dlc:DLCIndex-v4_45_VANHOUTENS_PATCH2-r463161-O19LJA7K.zip" version="4.45.0" />
+  <IndexFile index="dlc:DLCIndex-v4_44_SUMMERGAMES2020_PATCH1-r462517-Q2J7Z6NO.zip" version="4.44.5" />
+  <IndexFile index="dlc:DLCIndex-v4_44_GAMEOFGAMES2_PATCH1-r461740-JDEG6QHV.zip" version="4.44.0" />
+  <IndexFile index="dlc:DLCIndex-v4_43_PRIDE2020-r461138-UMGVOYLD.zip" version="4.43.5" />
+  <IndexFile index="dlc:DLCIndex-v4_43_SIMPSONSWRESTLING_PATCH1-r460402-SGLDZHYK.zip" version="4.43.1" />
+  <IndexFile index="dlc:DLCIndex-v4_43_SIMPSONSWRESTLING-r460026-DHYI4FS8.zip" version="4.43.0" />
+  <IndexFile index="dlc:DLCIndex-v4_42_NOBUCKSGIVEN-r459373-WDGXEY39.zip" version="4.42.5" />
+  <IndexFile index="dlc:DLCIndex-v4_40_MAGICALMAGGIE-r458646-MNQX8IGA.zip" version="4.42.0" />
+  <IndexFile index="dlc:DLCIndex-v4_41_NEWYEARS2020_PATCH1-r456925-XI3VDTAC.zip" version="4.41.5" />
+  <IndexFile index="dlc:DLCIndex-v4_41_XMAS2019_PATCH1-r456188-RSBXCTU3.zip" version="4.41.0" />
+  <IndexFile index="dlc:DLCIndex-v4_40_ALLAMERICANAUCTION_PATCH1-r455654-UOFS5VK0.zip" version="4.40.5" />
+  <IndexFile index="dlc:DLCIndex-v4_40_THOHXXX_PATCH4-r455248-N5JUYZI8.zip" version="4.40.0" />
+  <IndexFile index="dlc:DLCIndex-v4_39_CTHULHUSREVENGE-r453627-NA83BETO.zip" version="4.39.5" />
+  <IndexFile index="dlc:DLCIndex-v4_39_SIMPSONSBABIES_PATCH1-r452499-AIGY9D2H.zip" version="4.39.1" />
+  <IndexFile index="dlc:DLCIndex-v4_39_SIMPSONSBABIES-r452320-ZRP9DITC.zip" version="4.39.0" />
+  <IndexFile index="dlc:DLCIndex-v4_38_FLANDERSFAMILYREUNION-r451683-N0KGBAWF.zip" version="4.38.5" />
+  <IndexFile index="dlc:DLCIndex-v4_38_GAMEOFGAMES-r450552-QP8H0A26.zip" version="4.38.0" />
+  <IndexFile index="dlc:DLCIndex-v4_37_MOMSOFSPRINGFIELD_PATCH1-r449662-26570ORA.zip" version="4.37.6" />
+  <IndexFile index="dlc:DLCIndex-v4_37_CLASSLESSREUNION-r448335-ZBMCXY2N.zip" version="4.37.5" />
+  <IndexFile index="dlc:DLCIndex-v4_37_VALENTINES2019_PATCH1-r446813-690QPXAE.zip" version="4.37.0" />
+  <IndexFile index="dlc:DLCIndex-v4_36_NEWYEARS2019_PATCH3-r446197-JK9UR48O.zip" version="4.36.5" />
+  <IndexFile index="dlc:DLCIndex-v4_36_XMAS2018_PATCH1-r443556-C58F6IU9.zip" version="4.36.0" />
+  <IndexFile index="dlc:DLCIndex-v4_35_XMAS2018TEASER-r442560-XS6F7QTI.zip" version="4.35.5" />
+  <IndexFile index="dlc:DLCIndex-v4_35_THOH2018_PATCH4-r438293-HEZ7LWQU.zip" version="4.35.0" />
+  <IndexFile index="dlc:DLCIndex-v4_34_THOH2018TEASER-r435740-H128SR3P.zip" version="4.34.5" />
+  <IndexFile index="dlc:DLCIndex-v4_34_MOESARK_PATCH1-r430932-CJ0H34PT.zip" version="4.34.0" />
+  <IndexFile index="dlc:DLCIndex-v4_33_MOESARKTEASER-r429773-V89U3P4R.zip" version="4.33.5" />
+  <IndexFile index="dlc:DLCIndex-v4_33_THEMEPARK2018_PATCH3-r424833-FIJ1Z842.zip" version="4.33.1" />
+  <IndexFile index="dlc:DLCIndex-v4_33_THEMEPARK2018-r423053-6V0E324J.zip" version="4.33.0" />
+  <IndexFile index="dlc:DLCIndex-v4_32_MAY2018_PATCH1-r421947-F64T3UQX.zip" version="4.32.7" />
+  <IndexFile index="dlc:DLCIndex-v4_32_WHOSHOTMRBURNS-r420058-J4DR9HTP.zip" version="4.32.5" />
+  <IndexFile index="dlc:DLCIndex-v4_32_SPRINGFIELDJOBS_PATCH4-r416783-97S0JWBR.zip" version="4.32.1" />
+  <IndexFile index="dlc:DLCIndex-v4_32_SPRINGFIELDJOBS_PATCH1-r414842-1S3E5HGY.zip" version="4.32.0" />
+  <IndexFile index="dlc:DLCIndex-v4_31_SPRINGFIELDJOBSTEASER-r413309-93Y7UX08.zip" version="4.31.5" />
+  <IndexFile index="dlc:DLCIndex-v4_31_HOMERGEDDON_PATCH2-r408466-UBTK0CE7.zip" version="4.31.0" />
+  <IndexFile index="dlc:DLCIndex-v4_30_HOMERGEDDONTEASER-r405851-J6TPKZRL.zip" version="4.30.0" />
+  <IndexFile index="dlc:DLCIndex-v4_29_XMASPROMO2017_PATCH2-r400628-3FGYW7EO.zip" version="4.29.5" />
+  <IndexFile index="dlc:DLCIndex-v4_29_THOH2017_PATCH4-r397013-01JXCR4E.zip" version="4.29.0" />
+  <IndexFile index="dlc:DLCIndex-v4_29_THESERFSONS-r390408-Q6MN3BIW.zip" version="4.28.5" />
+  <IndexFile index="dlc:DLCIndex-v4_28_MUSIC_PATCH5-r387435-43RDEFLK.zip" version="4.28.2" />
+  <IndexFile index="dlc:DLCIndex-v4_28_MUSIC-r381567-AEBGV5RZ.zip" version="4.28.0" />
+  <IndexFile index="dlc:DLCIndex-v4_27_STUNTCANNON-r380466-QPNM1WSA.zip" version="4.27.5" />
+  <IndexFile index="dlc:DLCIndex-v4_27_TTT_PATCH3_POSTLAUNCH-r373187-QUX25C49.zip" version="4.27.0" />
+  <IndexFile index="dlc:DLCIndex-v4_26_FORGOTTENANNIVERSARY-r371692-SD6N9MK4.zip" version="4.26.5" />
+  <IndexFile index="dlc:DLCIndex-v4_26_SECRETAGENTS_PATCH2_POSTLAUNCH-r365684-Z0CJXI57.zip" version="4.26.1" />
+  <IndexFile index="dlc:DLCIndex-v4_26_SECRETAGENTS_PATCH1_POSTLAUNCH-r364478-I7ZLS3N0.zip" version="4.26.0" />
+  <IndexFile index="dlc:DLCIndex-v4_25_ROMMELWOOD_ACADEMY_PATCH3-r362358-IF62954N.zip" version="4.25.6" />
+  <IndexFile index="dlc:DLCIndex-v4_25_ROMMELWOOD_ACADEMY_PATCH1-r361763-8AW79ZYD.zip" version="4.25.5" />
+  <IndexFile index="dlc:DLCIndex-v4_25_AROUNDTHEWORLD_PATCH7_POSTLAUNCH-r359608-573TKFUJ.zip" version="4.25.0" />
+  <IndexFile index="dlc:DLCIndex-v4_24_LUNARNEWYEAR-r353796-N87ILBJ6.zip" version="4.24.5" />
+  <IndexFile index="dlc:DLCIndex-v4_24_THEGREATPHATSBY_TEASER-r351677-I83ZUY0T.zip" version="4.24.0" />
+  <IndexFile index="dlc:DLCIndex-v4_23_THEMOSTDANGEROUSGAME_PATCH2_POSTLAUNCH-r345800-M09D2HE6.zip" version="4.23.5" />
+  <IndexFile index="dlc:DLCIndex-v4_23_HAVANAWILDWEEKEND-r343174-WPTC5OV8.zip" version="4.23.0" />
+  <IndexFile index="dlc:DLCIndex-v4_22_SEASONPREMIERE2016_POSTLAUNCH_PATCH2-r337720-45D8RQM2.zip" version="4.22.5" />
+  <IndexFile index="dlc:DLCIndex-v4_22_SCIFI_PATCH4_POSTLAUNCH-r333104-E407QMIF.zip" version="4.22.0" />
+  <IndexFile index="dlc:DLCIndex-v4_21_SPRINGFIELDGAMES_PATCH1_POSTLAUNCH-r330049-5NPFJRI3.zip" version="4.21.5" />
+  <IndexFile index="dlc:DLCIndex-v4_21_FILMSETPROMO_PATCH1_POSTLAUNCH-r326821-SFBGR2CM.zip" version="4.21.0" />
+  <IndexFile index="dlc:DLCIndex-v4_20_HOMERSCHILIAD_PATCH1_POSTLAUNCH-r318969-JIWHRBU0.zip" version="4.20.5" />
+  <IndexFile index="dlc:DLCIndex-v4_20_WISEGUY_PATCH_2-r315685-CJ6I9N0F.zip" version="4.20.0" />
+  <IndexFile index="dlc:DLCIndex-v4_19_SPRINGCLEANING2016-r306499-STD09BY7.zip" version="4.19.5" />
+  <IndexFile index="dlc:DLCIndex-v4_19_EASTER2016_PATCH1_POSTLAUNCH-r301010-67WZSFOB.zip" version="4.19.0" />
+  <IndexFile index="dlc:DLCIndex-v4_18_WORLDSLARGESTREDWOOD-r292987-R97OWEF6.zip" version="4.18.5" />
+  <IndexFile index="dlc:DLCIndex-v4_18_MUCHAPUABOUTSOMETHING_TIEIN-r282547-2RWS8T9X.zip" version="4.18.0" />
+  <IndexFile index="dlc:DLCIndex-v4_17_SPRINGFIELDHEIGHTS2_PATCH1_POSTLAUNCH-r270719-83HBA4UV.zip" version="4.17.5" />
+  <IndexFile index="dlc:DLCIndex-v4_17_GINAMALLOY_POSTLAUNCH_PATCH1-r262452-CFD3XBVM.zip" version="4.17.0" />
+  <IndexFile index="dlc:DLCIndex-v4_16_OKTOBERFEST_PATCH1_POSTLAUNCH-r248731-B1ZJPU0M.zip" version="4.16.7" />
+  <IndexFile index="dlc:DLCIndex-v4_16_OLDJEWISHMAN_PATCH1_POSTLAUNCH-r240150-9T6JAHL5.zip" version="4.16.5" />
+  <IndexFile index="dlc:DLCIndex-v4_16_MUSCLEMARGE-r236111-KZSX3JCA.zip" version="4.16.3" />
+  <IndexFile index="dlc:DLCIndex-v4_15_CAPTAINMURDOCH_DAREDEVILBART-r229127-IRN0Q84M.zip" version="4.15.5" />
+  <IndexFile index="dlc:DLCIndex-v4_15_DECDESMOND-r221982-75GUP394.zip" version="4.15.0" />
+  <IndexFile index="dlc:DLCIndex-v4_14_RUTHPOWERS-r213046-8FE7E6BD.zip" version="4.14.5" />
+  <IndexFile index="dlc:DLCIndex-v4_14_TERWILLIGERS_PATCH3_POSTLAUNCH-r202094-EKXHLFAI.zip" version="4.14.0" />
+  <IndexFile index="dlc:DLCIndex-v4_13_MARVINMONROE_PRELAUNCH_PATCH1-r185970-IOQR6C5G.zip" version="4.13.5" />
+  <IndexFile index="dlc:DLCIndex-v4_13_SUPERHEROESBOSSFIGHT_PATCH1-r180893-EZJH8F1D.zip" version="4.13.0" />
+  <IndexFile index="dlc:DLCIndex-v4_12_VALENTINES2015-r166592-40620FB7.zip" version="4.12.5" />
+  <IndexFile index="dlc:DLCIndex-v4_12_XMAS2014_Promos_Patch4-r156921-70F4AE16.zip" version="4.12.0" />
+  <IndexFile index="dlc:DLCIndex-v4_11_PromoBlackFriday_Patch3_PostLaunch-r145564-0AF5A743.zip" version="4.11.5" />
+  <IndexFile index="dlc:DLCIndex-v4_11_FreddyQuimby-r133426-335B0BC0.zip" version="4.11.1" />
+  <IndexFile index="dlc:DLCIndex-v4_11_MrsMuntz-r128228-B078CF1F.zip" version="4.11.0" />
+  <IndexFile index="dlc:DLCIndex-v4_10_PromoShadowKnight_Patch1_Prelaunch-r124041-FB5E96B1.zip" version="4.10.0" />
+  <IndexFile index="dlc:DLCIndex-v4_9_PromoBackToSchool_Patch2_PostLaunch-r109954-C19EE2B0.zip" version="4.9.5" />
+  <IndexFile index="dlc:DLCIndex-v4_9_July4th2014-r98869-381D5C8E.zip" version="4.9.3" />
+  <IndexFile index="dlc:DLCIndex-v4_9_PromoMansionOfSolidGold_Hotfix0-r98623-CCAF4A33.zip" version="4.9.1" />
+  <IndexFile index="dlc:DLCIndex-v4_9_RogerMyersJr_Hotfix0-r96404-66C10503.zip" version="4.9.0" />
+  <IndexFile index="dlc:DLCIndex-v4_8_MrsHibbert_HotFix0-r90167-4EB15E12.zip" version="4.8.1" />
+  <IndexFile index="dlc:DLCIndex-v4_8_MissHoover-r83203-2A2D61B5.zip" version="4.8.0" />
+  <IndexFile index="dlc:DLCIndex-v4_7_DoFF_Hotfix2-r79133-4761700B.zip" version="4.7.2" />
+  <IndexFile index="dlc:DLCIndex-v4_7_PromoKrustylu-r68609-DBD2C9F9.zip" version="4.7.0" />
+  <IndexFile index="dlc:DLCIndex-v4_6_SuperBowl_Hotfix-r64760-ADCBD629.zip" version="4.6.2" />
+  <IndexFile index="dlc:DLCIndex-v4_6_XMAS2013_Hotfix4-r61604-4DC16DFB.zip" version="4.6.0" />
+  <IndexFile index="dlc:DLCIndex-v4_5_YellowSubterfuge-r56194-AE177F89.zip" version="4.5.114" />
+  <IndexFile index="dlc:DLCIndex-v4_5_HalloweenGiveaway-r50576-FCF1001D.zip" version="4.5.0" />
+  <IndexFile index="dlc:DLCIndex-v4_4_SeasonPremiere2013-r45708-6C4BDCFD.zip" version="4.4.0" />
+  <IndexFile index="dlc:DLCIndex-v4_3_RodAndTodd-r37110-A9514A3E.zip" version="4.3.0" />
+  <IndexFile index="dlc:DLCIndex-v4_2_Herman-r29223.zip" version="4.2.84" />
+  <IndexFile index="dlc:DLCIndex-v4_2_AgnesSkinner-r26843.zip" version="4.2.78" />
+  <IndexFile index="dlc:DLCIndex-v4_1_SwankyFish-r23604.zip" version="4.1.38" />
+  <IndexFile index="dlc:DLCIndex-v4_1_ValentinesEXTENDED-r20486.zip" version="4.1.36" />
+  <IndexFile index="dlc:DLCIndex-v4_1_StPatricksDay-r21336_ANDROID.zip" version="4.1.0" />
+  <IndexFile index="dlc:DLCIndex-v4_0_January-r16562.zip" version="4.0.0" />
+</MasterDLCIndex>

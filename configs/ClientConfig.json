@@ -13,7 +13,7 @@
     {
       "clientConfigId": 2,
       "name": "MinimumVersion.ios",
-      "value": "4.69.0"
+      "value": "4.26.5"
     },
     {
       "clientConfigId": 3,
@@ -73,7 +73,7 @@
     {
       "clientConfigId": 20,
       "name": "MinimumVersion.android",
-      "value": "4.69.0"
+      "value": "4.26.5"
     },
     {
       "clientConfigId": 21,
@@ -158,7 +158,7 @@
     {
       "clientConfigId": 47,
       "name": "MinimumVersion.android.amazon",
-      "value": "4.69.0"
+      "value": "4.26.5"
     },
     {
       "clientConfigId": 48,
